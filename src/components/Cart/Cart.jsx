@@ -31,6 +31,7 @@ const Cart = ({ cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart
         </div>
         </>
     )
+
     if(!cart.line_items) return 'Loading...';
 
     return (
